@@ -1,0 +1,57 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.java-version
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Files
+npm-debug.log
+
+# IDEs
+.idea/
+
+# Folders
+.gradle/
+.vulcan/
+/client/node_modules/
+node_modules/
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+/client/xxx*xxx.html
+/yarn-error.log
+
+##
+/bin
